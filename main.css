@@ -1,0 +1,144 @@
+header {
+  padding: 20px 0;
+}
+#nav-text{
+  color: white;
+}
+#ye{
+  font-family:"Lucida Sans Unicode" ;
+  font-size: 15px;
+  color: white;
+  border-bottom:none;
+}
+#prof-side{
+  padding-top: 10px;
+  padding-right: 200px;
+  float: right;
+}
+#prof-pic{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  margin-left: 1.5%;
+  margin-top: -20px;
+}
+#text{
+  margin-top: 13%;
+  margin-left: 2px;
+}
+div div p{
+  font-family:"Lucida Sans Unicode" ;
+  font-size: 20px;
+  color: white;
+  border-bottom: 2px solid white;
+
+}
+header nav p {
+  padding-left:130px;
+  padding-right: 130px;
+  margin: 0;
+  font-size: 19px;
+  font-family:"Lucida Sans Unicode";
+  font-size: 20px;
+  border: 2px solid black;
+}
+.jumbotron {
+  display: flex;
+  align-items: left;
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+div div div div table tr td :hover{
+  height:90px;
+  width: 90px;
+
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+.right {
+  align-content: right;
+  margin-right: -100px;
+}
+#sidebar{
+    /*position: fixed;*/
+    background-color:#004445;
+    height: 750px;
+    margin-top: -17px;
+}
+.main {
+    position: absolute;
+    left:178px; top:92px; right:0; bottom:0;
+}
+#p1{
+	margin-left: 100px; 
+}
+#logo{
+	background-color:#285800;
+	height: 10%;
+}
+#selected{
+  background-color:#285800;
+}
+td{
+  height: 100px;
+  width: 100px;
+}
+#top{
+  background-color:#004445;
+  height:15%;
+  padding-top:10px;
+  align:center;
+}
+.bubble 
+{
+position: relative;
+width: 370px;
+height: 95px;
+padding: 0px;
+background: #FFFFFF;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.bubble:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 15px 15px 15px 0;
+border-color: transparent #FFFFFF;
+display: block;
+width: 0;
+z-index: 1;
+left: -15px;
+top: 32px;
+}
